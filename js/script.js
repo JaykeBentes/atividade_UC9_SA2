@@ -1,3 +1,4 @@
+//menu burguer
 $(document).ready(function(){
 
     $("#mobile").click(function(){
@@ -7,9 +8,8 @@ $(document).ready(function(){
             $("#nav1").addClass("active")
             }
     })
-    
-})
 
+})
 
 //btn hamburguer 
 const hamburguer = document.getElementById('hamburguer')
@@ -20,7 +20,7 @@ function animacao() {
 
 
 //login e signup
-const switchers = [...document.querySelectorAll('.btn-lg')]
+const switchers = document.querySelectorAll('.btn-lg')
 
 switchers.forEach(item => {
 	item.addEventListener('click', function() {

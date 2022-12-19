@@ -355,6 +355,10 @@ nav .menu-text:hover {
         align-items: center;
         justify-content: flex-start;
     }
+    .menu2 {
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
     .cabecalho {
         display: flex;
         align-items: center;

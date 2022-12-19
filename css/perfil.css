@@ -17,6 +17,14 @@
     justify-content: flex-end;
     align-items: center;
 }
+#signup {
+    width: 520px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center
+}
 #btn-login {
     transform: translateX(-12%);
 }
@@ -37,14 +45,7 @@
     background-image: linear-gradient(to right, #86b6d8be, #ebf2fabe);
     transition: 0.8s;
 }
-#signup {
-    width: 520px;
-    height: 350px;
-    display: flex;
-    flex-wrap: wrap;
 
-    align-items: center
-}
 #floatingInput, #floatingPassword {
     background-color: black;
     width: 350px;
@@ -240,7 +241,6 @@
 .form input {
     display: block;
 	margin-top: 8px;
-
 	font-size: 16px;
 	line-height: 40px;
 	color: #3b4465;
